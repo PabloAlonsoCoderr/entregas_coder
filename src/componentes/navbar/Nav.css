@@ -1,0 +1,76 @@
+/* CONTENEDORES GENERALES Y DE SECCIONES */
+
+.wrapper{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar{
+    width: 60%;
+    border-radius: 30px;
+    height: 100px;
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+/* LOGO*/
+.navbar__section--1{
+    align-items: center;
+    justify-content: center;
+    margin-left: 5rem;
+}
+
+
+/* ACCESOS*/
+
+.navbar__section--2{
+    width: 40%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar__ul{
+    width: 100%;
+    list-style-type:none;
+    display:flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.navbar__li{
+    color: #EAEAEA;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    transition: background-color .5s;
+
+}
+
+/* ICONOS*/
+.navbar__section--3{
+    width: 10%;
+    margin-right: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+i{
+    color: #EAEAEA;
+    font-size:2.5rem;
+    cursor: pointer;
+}
