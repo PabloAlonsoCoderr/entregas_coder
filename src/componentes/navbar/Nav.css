@@ -1,6 +1,6 @@
 /* CONTENEDORES GENERALES Y DE SECCIONES */
 
-.wrapper{
+.wrapper__navbar{
     width: 100%;
     height: 150px;
     display: flex;

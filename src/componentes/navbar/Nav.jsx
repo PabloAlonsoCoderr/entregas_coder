@@ -1,8 +1,10 @@
 import "./Nav.css";
 import logo_nav from "../../assets/img/logo_Nav.png";
-function Nav() {
+
+const Nav = (props) => {
+  console.log(props);
   return (
-    <div className="wrapper">
+    <div className="wrapper__navbar">
       <div className="navbar">
         <div className="navbar__section--1">
           <img src={logo_nav} className="navbar__logo" />
@@ -42,6 +44,6 @@ function Nav() {
       </div>
     </div>
   );
-}
+};
 
 export default Nav;

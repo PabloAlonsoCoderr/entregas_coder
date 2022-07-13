@@ -1,0 +1,23 @@
+.Titulo{
+    color: green;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.subTitulo{
+    color: violet;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.ruta{
+    color: gold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
