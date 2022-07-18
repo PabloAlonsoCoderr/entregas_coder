@@ -1,14 +1,13 @@
-import Titulo from "../titulo/Titulo";
-import Formulario from "../formulario/Formulario";
 import "./Container.css";
+import ItemCount from "./ItemCount";
+import Titulo from "../titulo/Titulo";
 
 const Container = () => {
   return (
-    <>
-      <div className="wrapper__container">
-        <Formulario />
-      </div>
-    </>
+    <div className="wrapper__container">
+      <Titulo titulo="EJERCICIO INCREMENTADOR" />
+      <ItemCount />
+    </div>
   );
 };
 

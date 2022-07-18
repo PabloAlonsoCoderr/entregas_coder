@@ -1,9 +1,10 @@
 .wrapper__container{
     background-color: #282828;
     width: 80%;
-    height: 500px;
+    padding: 30px;
     margin: auto;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
